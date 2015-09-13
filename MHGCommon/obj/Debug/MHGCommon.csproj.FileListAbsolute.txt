@@ -1,0 +1,11 @@
+D:\MHG\OOP\MHGCommon\bin\Debug\MHGCommon.dll
+D:\MHG\OOP\MHGCommon\bin\Debug\MHGCommon.pdb
+D:\MHG\OOP\MHGCommon\bin\Debug\mscorlib.dll
+D:\MHG\OOP\MHGCommon\bin\Debug\normidna.nlp
+D:\MHG\OOP\MHGCommon\bin\Debug\normnfc.nlp
+D:\MHG\OOP\MHGCommon\bin\Debug\normnfd.nlp
+D:\MHG\OOP\MHGCommon\bin\Debug\normnfkc.nlp
+D:\MHG\OOP\MHGCommon\bin\Debug\normnfkd.nlp
+D:\MHG\OOP\MHGCommon\obj\Debug\MHGCommon.csprojResolveAssemblyReference.cache
+D:\MHG\OOP\MHGCommon\obj\Debug\MHGCommon.dll
+D:\MHG\OOP\MHGCommon\obj\Debug\MHGCommon.pdb
