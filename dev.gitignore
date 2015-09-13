@@ -3,13 +3,14 @@
 *.DS_Store
 
 #Visual Studio files
-*/[Bb]in
-*/[Oo]bj
-*/*/[Dd]ebug*/
-*/*/[Rr]elease*/
+*/*/bin
+*/*/obj
+*.user
+*.suo
 Ankh.NoLoad
 
 #Tooling
+*ReSharper*
 _ReSharper*/
 *.resharper
 [Tt]est[Rr]esult*
