@@ -1,0 +1,7 @@
+.svn
+bin
+obj
+*.
+
+testxxx.txt
+OOP.v11.suo
