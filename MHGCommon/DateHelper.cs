@@ -38,7 +38,7 @@ namespace MHGCommon {
         /// <param name="pattern">The pattern.</param>
         /// <returns></returns>
         public static string DateToString(this DateTime dateObj, string pattern) {
-            return DateToString(dateObj, pattern, DateTimeFormatInfo.CurrentInfo);
+            return DateToString(dateObj, pattern, DateTimeFormatInfo.InvariantInfo);
         }
 
         /// <summary>
@@ -75,11 +75,11 @@ namespace MHGCommon {
         #region String To date
 
         public static DateTime? StringToDate(string dateObj) {
-            return StringToDate(dateObj, DATE_PATTERN, DateTimeFormatInfo.CurrentInfo);
+            return StringToDate(dateObj, DATE_PATTERN, DateTimeFormatInfo.InvariantInfo);
         }
 
         public static DateTime? StringToDate(string dateObj, string pattern) {
-            return StringToDate(dateObj, DATE_PATTERN, DateTimeFormatInfo.CurrentInfo);
+            return StringToDate(dateObj, DATE_PATTERN, DateTimeFormatInfo.InvariantInfo);
         }
 
         public static DateTime? StringToDate(string date, string pattern, IFormatProvider provider) {
