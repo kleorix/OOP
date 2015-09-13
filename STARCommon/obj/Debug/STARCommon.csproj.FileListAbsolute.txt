@@ -6,6 +6,5 @@ D:\MHG\OOP\STARCommon\bin\Debug\normnfc.nlp
 D:\MHG\OOP\STARCommon\bin\Debug\normnfd.nlp
 D:\MHG\OOP\STARCommon\bin\Debug\normnfkc.nlp
 D:\MHG\OOP\STARCommon\bin\Debug\normnfkd.nlp
-D:\MHG\OOP\STARCommon\obj\Debug\STARCommon.csprojResolveAssemblyReference.cache
 D:\MHG\OOP\STARCommon\obj\Debug\STARCommon.dll
 D:\MHG\OOP\STARCommon\obj\Debug\STARCommon.pdb
