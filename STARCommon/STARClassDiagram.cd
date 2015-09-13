@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="STARCommon.ST_Steuerpflicht">
+    <Position X="8.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ST_Steuerpflicht.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="STARCommon.ST_Person">
+    <Position X="10.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ST_Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="STARCommon.IPlausibilityCheckContext" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IPlausibilityCheckContext.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="STARCommon.IPlausibilityTest">
+    <Position X="3.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>IPlausibilityTest.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="STARCommon.IPlausibilityTestContext">
+    <Position X="5.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAABAAAAAAAIQAAAAAAAAAAAAA=</HashCode>
+      <FileName>IPlausibilityTestContext.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="STARCommon.IPlausibilityTestSet">
+    <Position X="3.25" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAACAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>IPlausibilityTestSet.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="STARCommon.IPlausibilityTestFilter">
+    <Position X="10" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IPlausibilityTestFilter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="STARCommon.PlausibilityContextTaxLiabilities">
+    <Position X="0.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAIAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IPlausibilityTest.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="STARCommon.PlausibilityContextPersons">
+    <Position X="0.5" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAgAAAAAAAAAAACAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>IPlausibilityTest.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="STARCommon.PlausibilitySeverity">
+    <Position X="0.5" Y="3.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IPlausibilityTest.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
