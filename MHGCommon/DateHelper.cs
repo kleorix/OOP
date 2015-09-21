@@ -28,7 +28,7 @@ namespace MHGCommon {
         /// Change a date to a string with the short format
         /// </summary>
         public static string DateToString(this DateTime dateObj) {
-            return DateToString(dateObj, DATE_PATTERN, DateTimeFormatInfo.InvariantInfo);
+            return dateObj.DateToString(DATE_PATTERN);
         }
 
         /// <summary>
@@ -38,7 +38,7 @@ namespace MHGCommon {
         /// <param name="format">The format.</param>
         /// <returns></returns>
         public static string DateToString(this DateTime dateObj, string format) {
-            return dateObj.ToString(format);
+            return dateObj.DateToString(format, CultureInfo.InvariantCulture);
         }
 
         /// <summary>
