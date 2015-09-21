@@ -1,15 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Globalization;
 using MHGCommon;
 
 namespace OOP {
     class Program {
         static void Main(string[] args) {
             var date = DateTime.Today;
-            date.ToLongDateString();
+            Console.WriteLine(date.DateToString());
+            Console.WriteLine(date.DateToString(DateHelper.DATE_3MONTH_PATTERN));
+            Console.WriteLine(date.DateToString("D",CultureInfo.CreateSpecificCulture(StringHelper.GERMAN_CULTURE)));
         }
     }
 }
